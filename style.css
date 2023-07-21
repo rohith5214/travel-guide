@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    overflow-x: hidden;
+}
+.section{
+    background: url(./hero-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+.navbar-brand {
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar-brand sub {
+    color: black;
+}
+.content {
+    float: right;
+    margin: 8% 12% 0px 8%;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+#heading1 {
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+    text-align: center;
+}
+#button {
+    margin-top: 400px;
+    margin-left: 620px;
+    
+    
+}
+#h5 {
+    font-family: 'Dancing Script', cursive;
+}
+h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer {
+    display: flex;
+    padding: 0;
+    background-color: indigo;
+    height: 400px;
+}
+
+#package:hover {
+     background-color:crimson;
+}
+.footer div{
+    padding: 8rem;
+}
+.footer h3 {
+    color: orange;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li {
+    padding: 0.5rem;
+    color: white;
+}
+.icons ul {
+   display: flex;
+
+}
+.icons ul li {
+    padding: 1rem;
+}
+.icons ul li a i{
+    font-size: 22px;
+    color: white;
+}
+h6 {
+    color: white;
+    margin-left: 30px;
+}
+.para {
+    background-color: indigo;
+    text-align: center;
+    color: white;
+}
+@media (max-width:952px){
+    .section{
+        margin: 0;
+        padding: 0;
+    }
+    #button {
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+}
+@media(max-width:900px){
+    .footer{
+        display: block;
+        height: 650px;
+    }
+    .footer div{
+        padding: 1rem;
+    }
+}
